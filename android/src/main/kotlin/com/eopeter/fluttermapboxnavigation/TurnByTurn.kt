@@ -148,10 +148,10 @@ open class TurnByTurn(
                         this@TurnByTurn.simulateRoute
                     )
                     this@TurnByTurn.binding.navigationView.api.startRoutePreview(routes)
-                    this@TurnByTurn.binding.navigationView.customizeViewBinders {
-                        this.infoPanelEndNavigationButtonBinder =
-                            CustomInfoPanelEndNavButtonBinder(activity)
-                    }
+                    // this@TurnByTurn.binding.navigationView.customizeViewBinders {
+                    //     this.infoPanelEndNavigationButtonBinder =
+                    //         CustomInfoPanelEndNavButtonBinder(activity)
+                    // }
                 }
 
                 override fun onFailure(
